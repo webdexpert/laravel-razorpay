@@ -1,0 +1,45 @@
+{
+    "name": "webdexpert/laravel-razorpay",
+    "version": "1.0.0",
+    "description": "Razorpay Payment Gateway integration for Laravel.",
+    "keywords": [
+        "php",
+        "Webdexpert",
+        "laravel",
+        "Razorpay"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sandeep Kapri",
+            "email": "ask@sandeepkapri.com",
+            "homepage": "https://www.sandeepkapri.com"
+        }
+    ],
+    "support" : {
+        "source" : "https://github.com/webdexpert/razorpay-laravel"
+    },
+    "require": {
+        "php": "^7.2.5",
+        "razorpay/razorpay": "^2.2",
+        "illuminate/support": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webdexpert\\Razorpay\\Laravel\\": "src/"
+        }
+    },
+    "extra": {
+        
+        "laravel": {
+            "providers": [
+                "Webdexpert\\Razorpay\\RazorpayServiceProvider"
+            ],
+            "aliases": {
+                "Razorpay": "Webdexpert\\Razorpay\\Facades\\Razorpay"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
