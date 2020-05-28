@@ -1,6 +1,6 @@
 {
     "name": "webdexpert/laravel-razorpay",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Razorpay Payment Gateway integration for Laravel.",
     "keywords": [
         "php",
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Webdexpert\\Razorpay\\Laravel\\": "src/"
+            "Webdexpert\\Razorpay\\": "src/"
         }
     },
     "extra": {
